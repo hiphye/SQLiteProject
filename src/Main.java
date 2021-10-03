@@ -29,7 +29,7 @@ public class Main {
 			stat1.close(); //증요
 			
 		    //데이터 추가
-			/*
+			
 			System.out.println("\n*** 새 데이터 추가 ***");
 			Statement stat2 = con.createStatement();
 			String sql2 = "insert into g_artists (name, a_type, a_year, debut, regdate)" + " values('방탄여어린이단','여성','2012년대','2013년', datetime('now','localtime'));";
@@ -40,7 +40,6 @@ public class Main {
 			else 
 				System.out.println("[Error] 데이터 추가 오류!");
 			stat2.close();
-			*/
 			//수정
 			
 			System.out.println("\n*** 데이터 수정 ***");
